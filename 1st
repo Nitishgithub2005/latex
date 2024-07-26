@@ -1,0 +1,32 @@
+1st 
+\documentclass[12pt,a4paper]{article}
+\usepackage[margin=1 in]{geometry}
+\usepackage{fancyhdr}
+\begin{document}
+% Set the page style to &quot;fancy&quot;...
+\pagestyle{fancy}
+\title{GNU Project}
+\author{Radhika Patil}
+\fancyhf{} % clear existing header/footer entries
+
+\fancyhead{} % clear all header fields
+\fancyhead[R]{GNU Project}
+\fancyfoot{} % clear all footer fields
+\fancyfoot[L]{BIET}
+\fancyfoot[R]{\thepage}
+\maketitle
+\section{What is GNU?}
+GNU is an operating system that is free software—that is, it respects users; freedom. The
+GNU operating system consists of GNU packages (programs specifically released by the
+
+\section{What is Free Software?}
+Free software is a matter of liberty, not price. More precisely, free software means
+users of a program have the four essential freedoms.
+
+\par
+By doing this you can give the whole community a chance to benefit from your changes.
+Access to the source code is a precondition for this.
+Developments in technology and network use have made these freedoms even more
+important now than they were in 1983. Nowadays the free software movement goes far
+beyond developing the GNU system.
+\end{document}
